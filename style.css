@@ -1,0 +1,107 @@
+:root {
+  -moz-osx-font-smooting: grayscale;
+  -webkit-font-smoothhing: antialiased;
+  -webkit-text-size-adjust: 100%;
+
+  background-color: whitesmoke;
+  color-scheme: light dark;
+  color: #ff060600; 
+  font-family: 'Sigmar', cursive;
+  line-height: 24px;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, 
+body,
+#app {
+  margin: 0;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 100;
+  color: black;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  line-height: 3.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 100;
+  color: whitesmoke;
+  -webkit-text-stroke: 0.5px gray;
+}
+
+p {
+  font-size: 1rem;
+  color: whitesmoke;
+  -webkit-text-stroke: 0.5px gray;
+}
+
+.block, 
+#block-init {
+  background-color: gray;
+  color: whitesmoke;
+  border: 0.5px solid whitesmoke;
+  padding: 0.9rem;
+  width: 80%;
+  border-radius: 0.25rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+}
+
+.show, 
+#block-init {
+  background-color: whitesmoke;
+}
+
+.no-show {
+  opacity: 0;
+}
+
+#app {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+}
+
+#color-picker {
+  min-width: 12.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#color-input {
+  height: 2rem;
+  width: 8rem;
+  cursor: pointer;
+}
+
+button {
+  background-color: whitesmoke;
+  color: #344E41;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 0.9rem;
+  width: 9rem;
+  height: 3rem;
+  border-radius: 1.5rem;
+}
+
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="logo" href="./assets/logo-B.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
+    
+    <title>Color Vite</title>
+  </head>
+  <body>
+
+    <div id="app">
+
+      <div id="block-init" class="show">
+        <h1>Descubre los distintos 
+          colores del año <strong id="name">PANTONE®️</strong></h1>
+      </div>
+
+      <div class="block">
+        <h2>Color de fondo:</h2>
+        <h2 id="color-name">-</h2>
+      </div>
+
+      <div class="block">
+        <h2>Elige un color:</h2>
+        <select id="color-picker">
+          <option value="#8a8a8a">-</option>
+        </select>
+      </div>
+
+      <div class="block">
+        <h2>Puedes encontrar el código Hexadecimal de cualquier color:</h2>
+        <input id="color-input" type="color">
+        <button id="button_input">Buscar color</button>
+      </div>
+
+      <div class="block">
+        <button id="button_reset">Reiniciar valores</button>
+      </div>
+
+      <div class="block">
+        <p>Creado por Brisna Páez como proyecto en ROCK{THECODE}</p>
+      </div>
+      
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
